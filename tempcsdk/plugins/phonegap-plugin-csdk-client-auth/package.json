@@ -1,0 +1,105 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "https://github.com/CreativeSDK/phonegap-plugin-csdk-client-auth",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "https://github.com/CreativeSDK/phonegap-plugin-csdk-client-auth",
+        "spec": "git+https://github.com/CreativeSDK/phonegap-plugin-csdk-client-auth.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:CreativeSDK/phonegap-plugin-csdk-client-auth.git",
+          "sshUrl": "git+ssh://git@github.com/CreativeSDK/phonegap-plugin-csdk-client-auth.git",
+          "httpsUrl": "git+https://github.com/CreativeSDK/phonegap-plugin-csdk-client-auth.git",
+          "gitUrl": "git://github.com/CreativeSDK/phonegap-plugin-csdk-client-auth.git",
+          "shortcut": "github:CreativeSDK/phonegap-plugin-csdk-client-auth",
+          "directUrl": "https://raw.githubusercontent.com/CreativeSDK/phonegap-plugin-csdk-client-auth/master/package.json"
+        }
+      },
+      "/Users/markonni/Desktop/imageEditor/tempcsdk"
+    ]
+  ],
+  "_from": "git+https://github.com/CreativeSDK/phonegap-plugin-csdk-client-auth.git",
+  "_id": "phonegap-plugin-csdk-client-auth@1.0.6",
+  "_inCache": true,
+  "_location": "/phonegap-plugin-csdk-client-auth",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "https://github.com/CreativeSDK/phonegap-plugin-csdk-client-auth",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "https://github.com/CreativeSDK/phonegap-plugin-csdk-client-auth",
+    "spec": "git+https://github.com/CreativeSDK/phonegap-plugin-csdk-client-auth.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:CreativeSDK/phonegap-plugin-csdk-client-auth.git",
+      "sshUrl": "git+ssh://git@github.com/CreativeSDK/phonegap-plugin-csdk-client-auth.git",
+      "httpsUrl": "git+https://github.com/CreativeSDK/phonegap-plugin-csdk-client-auth.git",
+      "gitUrl": "git://github.com/CreativeSDK/phonegap-plugin-csdk-client-auth.git",
+      "shortcut": "github:CreativeSDK/phonegap-plugin-csdk-client-auth",
+      "directUrl": "https://raw.githubusercontent.com/CreativeSDK/phonegap-plugin-csdk-client-auth/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/CreativeSDK/phonegap-plugin-csdk-client-auth.git#1e2e3571fab284f4a16e7670ba24cfdbf81f218d",
+  "_shasum": "12a3cebc09284693f8e903ad9e595da5d2e2e642",
+  "_shrinkwrap": null,
+  "_spec": "https://github.com/CreativeSDK/phonegap-plugin-csdk-client-auth",
+  "_where": "/Users/markonni/Desktop/imageEditor/tempcsdk",
+  "author": {
+    "name": "Adobe"
+  },
+  "bugs": {
+    "url": "https://github.com/CreativeSDK/phonegap-plugin-csdk-client-auth/issues"
+  },
+  "cordova": {
+    "id": "phonegap-plugin-csdk-client-auth",
+    "platforms": [
+      "ios",
+      "android",
+      "browser"
+    ]
+  },
+  "dependencies": {},
+  "description": "This repo is a template for starting a new plugin.",
+  "devDependencies": {
+    "jasmine-node": "1.14.5",
+    "pluginpub": "^0.0.5"
+  },
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "gitHead": "1e2e3571fab284f4a16e7670ba24cfdbf81f218d",
+  "homepage": "http://github.com/CreativeSDK/phonegap-plugin-csdk-client-auth#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "ecosystem:phonegap",
+    "cordova-ios",
+    "cordova-android",
+    "cordova-browser"
+  ],
+  "license": "Apache-2.0",
+  "name": "phonegap-plugin-csdk-client-auth",
+  "optionalDependencies": {},
+  "readme": "<!--\n#\n# Licensed to the Apache Software Foundation (ASF) under one\n# or more contributor license agreements.  See the NOTICE file\n# distributed with this work for additional information\n# regarding copyright ownership.  The ASF licenses this file\n# to you under the Apache License, Version 2.0 (the\n# \"License\"); you may not use this file except in compliance\n# with the License.  You may obtain a copy of the License at\n#\n# http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing,\n# software distributed under the License is distributed on an\n# \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\n#  KIND, either express or implied.  See the License for the\n# specific language governing permissions and limitations\n# under the License.\n#\n-->\n\nphonegap-plugin-csdk-client-auth\n------------------------\n\n[![Stories in Ready](https://badge.waffle.io/CreativeSDK/phonegap-plugin-csdk-client-auth.png?label=ready&title=Ready)](http://waffle.io/CreativeSDK/phonegap-plugin-csdk-client-auth)\n\nWelcome to your first stop on the way to integrating the Adobe Creative SDK into your PhoneGap app!\n\nClient Auth is required for all Creative SDK integrations. See the information below for info on using this Client Auth plugin.\n\n### Contents\n\n- [Prerequisites](#prerequisites)\n- [Installation](#installation)\n- [Setup guide](#setup-guide)\n- [API guide](#api-guide)\n\n\n# Prerequisites\n\n## Supported PhoneGap platforms\n\n1. Android\n1. iOS\n\n## Registering for a Client ID and Secret\n\nBefore you can work with the Creative SDK, you must register your application and get your Client ID and Client Secret.\n\n_**Note:** You need a Client ID and Secret for each platform you plan to use. If you plan to ship for both Android and iOS, you will need an ID/Secret pair for both platforms._\n\nFor details, see [Registering Your Application](https://creativesdk.adobe.com/docs/ios/#/articles/gettingstarted/index.html#register_application).\n\n## Software requirements\n\n**iOS**\n\n- Xcode 7 or higher\n- iOS 8.2 or higher\n\n[See the Creative SDK Getting Started guide for further details](https://creativesdk.adobe.com/docs/ios/#/articles/gettingstarted/index.html#prerequisites).\n\n**Android**\n\n- Android Studio 2.0 or higher\n- Android SDK 16 or higher\n\n[See the Creative SDK Getting Started guide for further details](https://creativesdk.adobe.com/docs/android/#/articles/gettingstarted/index.html#prerequisites).\n\n\n# Installation\n\n## Adding the plugin\n\nUse the command below to add the plugin to your app. If you only plan to ship on one platform, you can use dummy values for the Client ID and Secret variables for the platform you don't need.\n\n_**Note:** be sure to replace the Client ID and Secret strings with the values you received from the Creative SDK site (see \"Registering for a Client ID and Secret\" above)._\n\n### Adding released version\n\n```\nphonegap plugin add --save phonegap-plugin-csdk-client-auth \\\n  --variable CSDK_CLIENT_ID_IOS=\"iOS Client ID\" \\\n  --variable CSDK_CLIENT_SECRET_IOS=\"iOS Secret\" \\\n  --variable CSDK_CLIENT_ID_ANDROID=\"Android Client ID\" \\\n  --variable CSDK_CLIENT_SECRET_ANDROID=\"Android Secret\"\n```\n\n### Adding development version\n\n```\nphonegap plugin add --save https://github.com/CreativeSDK/phonegap-plugin-csdk-client-auth \\\n  --variable CSDK_CLIENT_ID_IOS=\"iOS Client ID\" \\\n  --variable CSDK_CLIENT_SECRET_IOS=\"iOS Secret\" \\\n  --variable CSDK_CLIENT_ID_ANDROID=\"Android Client ID\" \\\n  --variable CSDK_CLIENT_SECRET_ANDROID=\"Android Secret\"\n```\n\n## Downloading the Creative SDK\n\n**iOS**\n\nTo get the iOS SDK, go to the [Downloads page](https://creativesdk.adobe.com/downloads.html), click the download link for `STATIC FRAMEWORKS (DEPRECATED)`, and extract it to the `src/ios` folder of this plugin. Extracting the ZIP will create an `AdobeCreativeSDKFrameworks` folder.\n\nThe ZIP files contain all the frameworks in the Creative SDK, but for this plugin we will only be using the `AdobeCreativeSDKCore.framework`.\n\n\n**Android**\n\nNo action is required for Android. The Creative SDK for Android is delivered as a remote Maven repository, and the required framework will be downloaded automatically by the plugin.\n\n\n# Setup guide\n\n1. Create a new PhoneGap app or `cd` into an existing one\n1. Add this plugin (see \"Adding the plugin\" above)\n1. **iOS only:** download and add the Creative SDK to this project's `plugins/phonegap-plugin-csdk-client-auth/src/ios` directory (see \"Downloading the Creative SDK\" above)\n1. Add your target PhoneGap platform\n1. Build and run for your platform\n\n\n<a name=\"api\"></a>\n# Api Guide\n\nThere is no JavaScript API for this plugin. All Client Auth code is added to your app automatically.\n\nIf you need to update your Creative SDK Client ID and Secret, or add a new ID and Secret for a new platform, you can do that in your app's `config.xml` file.\n\nThe Client ID and Secret pairs are stored like this in `config.xml`:\n\n```\n<plugin name=\"phonegap-plugin-csdk-client-auth\" spec=\"~1.0.0\">\n        <variable name=\"CSDK_CLIENT_ID_IOS\" value=\"iOS Client ID\" />\n        <variable name=\"CSDK_CLIENT_ID_ANDROID\" value=\"Android Client ID\" />\n        <variable name=\"CSDK_CLIENT_SECRET_IOS\" value=\"iOS Secret\" />\n        <variable name=\"CSDK_CLIENT_SECRET_ANDROID\" value=\"Android Secret\" />\n</plugin>\n```\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/CreativeSDK/phonegap-plugin-csdk-client-auth.git"
+  },
+  "scripts": {
+    "test": "jasmine-node --color spec"
+  },
+  "version": "1.0.6"
+}

@@ -1,0 +1,2 @@
+# Referenced at /Users/markonni/Desktop/imageEditor/tempcsdk/platforms/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:29
+-keep class com.adobe.phonegap.csdk.AdobeAuthCredentialsApp { <init>(...); }

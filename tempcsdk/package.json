@@ -1,0 +1,40 @@
+{
+  "name": "com.phonegap.helloworld",
+  "version": "1.0.0",
+  "description": "This is the project created from the template: phonegap-template-csdk-image-editor",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:phonegap",
+    "ecosystem:cordova"
+  ],
+  "license": "Apache-2.0.0",
+  "displayName": "helloworld",
+  "dependencies": {
+    "cordova-android": "^7.0.0",
+    "cordova-ios": "~4.1.1",
+    "cordova-plugin-camera": "^2.2.0",
+    "cordova-plugin-compat": "^1.2.0",
+    "cordova-plugin-whitelist": "^1.2.2",
+    "phonegap-plugin-csdk-client-auth": "git+https://github.com/CreativeSDK/phonegap-plugin-csdk-client-auth.git",
+    "phonegap-plugin-csdk-image-editor": "^1.0.0"
+  },
+  "cordova": {
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "phonegap-plugin-csdk-client-auth": {
+        "CSDK_CLIENT_ID_IOS": "",
+        "CSDK_CLIENT_SECRET_IOS": "",
+        "CSDK_CLIENT_ID_ANDROID": "c72a214ec12c4eb3a782fb8f731d9203",
+        "CSDK_CLIENT_SECRET_ANDROID": "940d949f-0b75-432b-83d4-62679f6253b6"
+      },
+      "phonegap-plugin-csdk-image-editor": {},
+      "cordova-plugin-camera": {}
+    }
+  }
+}

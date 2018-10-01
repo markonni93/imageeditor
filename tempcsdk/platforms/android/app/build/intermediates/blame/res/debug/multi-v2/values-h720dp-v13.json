@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/markonni/Desktop/imageEditor/tempcsdk/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/markonni/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/6b87b7392e555ac541a42126680d992b/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                },
+                {
+                    "source": "/Users/markonni/.gradle/caches/transforms-1/files-1.1/alertdialogpro-theme-material-0.2.6.aar/5c1a77c24cdb2b00d78eba4199bc81e3/res/values-h720dp/values-h720dp.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "223",
+                        "endColumns": "71",
+                        "endOffsets": "290"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "122",
+                        "endColumns": "71",
+                        "endOffsets": "189"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/markonni/Desktop/imageEditor/tempcsdk/platforms/android/CordovaLib/AndroidManifest.xml:19:1-25:12
+INJECTED from /Users/markonni/Desktop/imageEditor/tempcsdk/platforms/android/CordovaLib/AndroidManifest.xml:19:1-25:12
+INJECTED from /Users/markonni/Desktop/imageEditor/tempcsdk/platforms/android/CordovaLib/AndroidManifest.xml:19:1-25:12
+INJECTED from /Users/markonni/Desktop/imageEditor/tempcsdk/platforms/android/CordovaLib/AndroidManifest.xml:19:1-25:12
+INJECTED from /Users/markonni/Desktop/imageEditor/tempcsdk/platforms/android/CordovaLib/AndroidManifest.xml:19:1-25:12
+INJECTED from /Users/markonni/Desktop/imageEditor/tempcsdk/platforms/android/CordovaLib/AndroidManifest.xml:19:1-25:12
+INJECTED from /Users/markonni/Desktop/imageEditor/tempcsdk/platforms/android/CordovaLib/AndroidManifest.xml:19:1-25:12
+	package
+		ADDED from /Users/markonni/Desktop/imageEditor/tempcsdk/platforms/android/CordovaLib/AndroidManifest.xml:20:5-33
+		INJECTED from /Users/markonni/Desktop/imageEditor/tempcsdk/platforms/android/CordovaLib/AndroidManifest.xml
+		INJECTED from /Users/markonni/Desktop/imageEditor/tempcsdk/platforms/android/CordovaLib/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/markonni/Desktop/imageEditor/tempcsdk/platforms/android/CordovaLib/AndroidManifest.xml:22:5-30
+		INJECTED from /Users/markonni/Desktop/imageEditor/tempcsdk/platforms/android/CordovaLib/AndroidManifest.xml
+		INJECTED from /Users/markonni/Desktop/imageEditor/tempcsdk/platforms/android/CordovaLib/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/markonni/Desktop/imageEditor/tempcsdk/platforms/android/CordovaLib/AndroidManifest.xml:19:11-69
+	android:versionCode
+		ADDED from /Users/markonni/Desktop/imageEditor/tempcsdk/platforms/android/CordovaLib/AndroidManifest.xml:21:5-28
+		INJECTED from /Users/markonni/Desktop/imageEditor/tempcsdk/platforms/android/CordovaLib/AndroidManifest.xml
+		INJECTED from /Users/markonni/Desktop/imageEditor/tempcsdk/platforms/android/CordovaLib/AndroidManifest.xml
+uses-sdk
+ADDED from /Users/markonni/Desktop/imageEditor/tempcsdk/platforms/android/CordovaLib/AndroidManifest.xml:24:5-44
+	android:minSdkVersion
+		ADDED from /Users/markonni/Desktop/imageEditor/tempcsdk/platforms/android/CordovaLib/AndroidManifest.xml:24:15-41

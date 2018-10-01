@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: it.sephiroth.android.library.picasso:picasso:2.5.2.4b@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/picasso-2.5.2.4b.aar/2f82a4485ec70b1d2bf7b0ab224c1f94/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/picasso-2.5.2.4b.aar/2f82a4485ec70b1d2bf7b0ab224c1f94/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

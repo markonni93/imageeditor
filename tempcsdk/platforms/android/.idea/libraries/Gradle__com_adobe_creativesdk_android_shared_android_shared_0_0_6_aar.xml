@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.adobe.creativesdk.android.shared:android-shared:0.0.6@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android-shared-0.0.6.aar/5202dcf1541f2f4871114545249ea8d6/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android-shared-0.0.6.aar/5202dcf1541f2f4871114545249ea8d6/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

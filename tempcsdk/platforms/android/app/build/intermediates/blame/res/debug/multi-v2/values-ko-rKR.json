@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/markonni/Desktop/imageEditor/tempcsdk/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ko-rKR/values-ko-rKR.xml",
+            "map": [
+                {
+                    "source": "/Users/markonni/.gradle/caches/transforms-1/files-1.1/auth-0.9.1186.aar/939d6796961f2d8a66866545fa2a8a69/res/values-ko-rKR/values-ko-rKR.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,175,229,322,443,512,577,684,771,871,948,997,1058,1125",
+                        "endColumns": "58,60,53,92,120,68,64,106,86,99,76,48,60,66,110",
+                        "endOffsets": "109,170,224,317,438,507,572,679,766,866,943,992,1053,1120,1231"
+                    }
+                }
+            ]
+        }
+    ]
+}

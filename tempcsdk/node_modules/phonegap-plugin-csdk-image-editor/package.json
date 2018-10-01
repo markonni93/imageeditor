@@ -1,0 +1,111 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "phonegap-plugin-csdk-image-editor@~1.0.0",
+        "scope": null,
+        "escapedName": "phonegap-plugin-csdk-image-editor",
+        "name": "phonegap-plugin-csdk-image-editor",
+        "rawSpec": "~1.0.0",
+        "spec": ">=1.0.0 <1.1.0",
+        "type": "range"
+      },
+      "/Users/markonni/Desktop/imageEditor/tempcsdk"
+    ]
+  ],
+  "_from": "phonegap-plugin-csdk-image-editor@>=1.0.0 <1.1.0",
+  "_id": "phonegap-plugin-csdk-image-editor@1.0.0",
+  "_inCache": true,
+  "_location": "/phonegap-plugin-csdk-image-editor",
+  "_nodeVersion": "4.2.2",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/phonegap-plugin-csdk-image-editor-1.0.0.tgz_1471459942993_0.6354937343858182"
+  },
+  "_npmUser": {
+    "name": "macdonst",
+    "email": "simon.macdonald@gmail.com"
+  },
+  "_npmVersion": "2.14.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "phonegap-plugin-csdk-image-editor@~1.0.0",
+    "scope": null,
+    "escapedName": "phonegap-plugin-csdk-image-editor",
+    "name": "phonegap-plugin-csdk-image-editor",
+    "rawSpec": "~1.0.0",
+    "spec": ">=1.0.0 <1.1.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/phonegap-plugin-csdk-image-editor/-/phonegap-plugin-csdk-image-editor-1.0.0.tgz",
+  "_shasum": "19ffab8dbc77c54eeedacbb01ac03d2adb4c7ce3",
+  "_shrinkwrap": null,
+  "_spec": "phonegap-plugin-csdk-image-editor@~1.0.0",
+  "_where": "/Users/markonni/Desktop/imageEditor/tempcsdk",
+  "author": {
+    "name": "Adobe PhoneGap Team"
+  },
+  "bugs": {
+    "url": "https://github.com/CreativeSDK/phonegap-plugin-csdk-image-editor/issues"
+  },
+  "cordova": {
+    "id": "phonegap-plugin-csdk-image-editor",
+    "platforms": [
+      "ios",
+      "android",
+      "browser"
+    ]
+  },
+  "dependencies": {},
+  "deprecated": "This plugin is no longer supported",
+  "description": "This repo is a template for starting a new plugin.",
+  "devDependencies": {
+    "jasmine-node": "1.14.5",
+    "jsdoc-to-markdown": "^1.3.7",
+    "pluginpub": "^0.0.5"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "19ffab8dbc77c54eeedacbb01ac03d2adb4c7ce3",
+    "tarball": "http://registry.npmjs.org/phonegap-plugin-csdk-image-editor/-/phonegap-plugin-csdk-image-editor-1.0.0.tgz"
+  },
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "gitHead": "76f07f0da8d616c49d34fc3ebbf7e8ddbc32ceea",
+  "homepage": "http://github.com/CreativeSDK/phonegap-plugin-csdk-image-editor#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "ecosystem:phonegap",
+    "cordova-ios",
+    "cordova-android",
+    "cordova-browser"
+  ],
+  "license": "APL",
+  "maintainers": [
+    {
+      "name": "macdonst",
+      "email": "simon.macdonald@gmail.com"
+    }
+  ],
+  "name": "phonegap-plugin-csdk-image-editor",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/CreativeSDK/phonegap-plugin-csdk-image-editor.git"
+  },
+  "scripts": {
+    "build": "npm run build:docs && npm test",
+    "build:docs": "jsdoc2md www/ImageEditor.js > docs/api.md",
+    "test": "jasmine-node --color spec"
+  },
+  "version": "1.0.0"
+}

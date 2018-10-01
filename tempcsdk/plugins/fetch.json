@@ -1,0 +1,47 @@
+{
+  "cordova-plugin-whitelist": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-whitelist@~1.2.1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "phonegap-plugin-csdk-client-auth": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/CreativeSDK/phonegap-plugin-csdk-client-auth"
+    },
+    "is_top_level": true,
+    "variables": {
+      "CSDK_CLIENT_ID_IOS": "iOS Client ID",
+      "CSDK_CLIENT_SECRET_IOS": "iOS Secret",
+      "CSDK_CLIENT_ID_ANDROID": "c72a214ec12c4eb3a782fb8f731d9203",
+      "CSDK_CLIENT_SECRET_ANDROID": "940d949f-0b75-432b-83d4-62679f6253b6"
+    }
+  },
+  "phonegap-plugin-csdk-image-editor": {
+    "source": {
+      "type": "registry",
+      "id": "phonegap-plugin-csdk-image-editor@^1.0.0"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-camera": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-camera@~2.2.0"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-compat": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-compat@^1.0.0"
+    },
+    "is_top_level": false,
+    "variables": {}
+  }
+}

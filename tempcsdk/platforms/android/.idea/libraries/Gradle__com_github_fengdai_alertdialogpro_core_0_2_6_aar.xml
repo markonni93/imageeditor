@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.fengdai:alertdialogpro-core:0.2.6@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/alertdialogpro-core-0.2.6.aar/1f669bc2739392f2023358f900bd3222/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/alertdialogpro-core-0.2.6.aar/1f669bc2739392f2023358f900bd3222/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.fengdai/alertdialogpro-core/0.2.6/ae8b9bec29bf90bcaa67b7a7f9ad3ca088da8036/alertdialogpro-core-0.2.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

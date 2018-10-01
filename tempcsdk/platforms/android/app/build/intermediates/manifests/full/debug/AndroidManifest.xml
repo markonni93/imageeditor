@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.phonegap.helloworld"
+    android:hardwareAccelerated="true"
+    android:versionCode="10000"
+    android:versionName="1.0.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="26" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="com.adobe.phonegap.csdk.AdobeAuthCredentialsApp"
+        android:debuggable="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:testOnly="true" >
+        <activity
+            android:name="com.phonegap.helloworld.MainActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:label="@string/activity_name"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.DeviceDefault.NoActionBar"
+            android:windowSoftInputMode="adjustResize" >
+            <intent-filter android:label="@string/launcher_name" >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.adobe.creativesdk.aviary.AdobeImageEditorActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:finishOnTaskLaunch="true"
+            android:screenOrientation="unspecified"
+            android:theme="@style/AdobeImageBaseTheme.Editor" >
+            <intent-filter>
+                <action android:name="aviary.intent.action.EDIT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="aviary.intent.action.EDIT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="https" />
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="aviary.intent.action.EDIT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="http" />
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <!--
+        Cds Service is in charge of sync all the available
+        online DLC contents within the android application.
+        It's required by the Aviary SDK and it will run in a
+        separated process 'aviarycds'
+        -->
+        <service
+            android:name="com.adobe.creativesdk.aviary.internal.cds.CdsService"
+            android:exported="false"
+            android:process=":cds" >
+            <intent-filter>
+                <action android:name="aviary.intent.action.CDS_VERIFY_SUBSCRIPTIONS" />
+                <action android:name="aviary.intent.action.CDS_DOWNLOAD_START" />
+                <action android:name="aviary.intent.action.CDS_RESTORE_USER_ITEMS" />
+                <action android:name="aviary.intent.action.CDS_RESTORE_OWNED_PACKS" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.adobe.creativesdk.aviary.internal.cds.CdsAssetsDownloaderService"
+            android:exported="false"
+            android:process=":cds" >
+            <intent-filter>
+                <action android:name="aviary.intent.action.CDS_DOWNLOAD_EXTRA_ASSETS" />
+            </intent-filter>
+        </service>
+        <!--
+        The CdsReceiver handles the downloaded contents (throught the
+        android DownloadManager)
+        -->
+        <receiver
+            android:name="com.adobe.creativesdk.aviary.internal.cds.CdsReceiver"
+            android:exported="true"
+            android:permission="android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS"
+            android:process=":cds" >
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+                <action android:name="android.net.wifi.STATE_CHANGE" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+                <action android:name="aviary.android.cds.intent.action.ACTION_NOTIFICATION_DISMISS" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.adobe.creativesdk.aviary.AdobeImageBillingService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="aviary.intent.action.AVIARY_CONTENT_MANAGER" />
+            </intent-filter>
+        </service>
+        <!--
+        CDS Content Provider.
+        This manages the internal DLC database
+        Manadatory for the Aviary-SDK.
+        -->
+        <provider
+            android:name="com.adobe.creativesdk.aviary.internal.cds.CdsProvider"
+            android:authorities="com.phonegap.helloworld.CdsProvider"
+            android:exported="false" />
+        <!--
+            Aviary SDK API KEY
+            Required
+        -->
+        <!-- <meta-data android:name="com.aviary.android.feather.v1.API_KEY" android:value="xxx" /> -->
+        <!-- Adobe CreativeSDK sign-in activity -->
+        <activity
+            android:name="com.adobe.creativesdk.foundation.internal.auth.AdobeAuthSignInActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:label="@string/adobe_csdk_creative_cloud"
+            android:multiprocess="true"
+            android:taskAffinity=""
+            android:theme="@style/AdobeCSDKThemeActivity"
+            android:windowSoftInputMode="stateUnchanged|adjustPan|adjustResize" />
+        <activity
+            android:name="com.adobe.creativesdk.foundation.internal.auth.AdobeAuthContinuableEventActivity"
+            android:exported="false"
+            android:label="@string/adobe_csdk_creative_cloud"
+            android:launchMode="singleInstance"
+            android:multiprocess="true"
+            android:theme="@style/AdobeCSDKThemeActivity"
+            android:windowSoftInputMode="stateUnchanged|adjustPan|adjustResize" />
+        <!--
+        Include this in you app Manifest if you need SSO ( Single sign on) for Adobe Internal clients.
+        <service android:name="com.adobe.creativesdk.foundation.internal.auth.authenticator.AdobeCSDKAdobeIDAuthenticatorService">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator" />
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator"
+                android:resource="@xml/adobe_csdk_adobeid_authenticator_description" />
+        </service>
+        -->
+        <activity android:name="com.adobe.creativesdk.foundation.internal.base.AdobeTOUHandlerActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

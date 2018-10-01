@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/markonni/Desktop/imageEditor/tempcsdk/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sv-rSE/values-sv-rSE.xml",
+            "map": [
+                {
+                    "source": "/Users/markonni/.gradle/caches/transforms-1/files-1.1/auth-0.9.1186.aar/939d6796961f2d8a66866545fa2a8a69/res/values-sv-rSE/values-sv-rSE.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,128,192,250,355,498,567,632,778,879,990,1067,1123,1190,1263",
+                        "endColumns": "72,63,57,104,142,68,64,145,100,110,76,55,66,72,142",
+                        "endOffsets": "123,187,245,350,493,562,627,773,874,985,1062,1118,1185,1258,1401"
+                    }
+                }
+            ]
+        }
+    ]
+}

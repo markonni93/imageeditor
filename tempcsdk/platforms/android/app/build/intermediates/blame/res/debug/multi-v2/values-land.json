@@ -1,0 +1,62 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/markonni/Desktop/imageEditor/tempcsdk/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "/Users/markonni/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/6b87b7392e555ac541a42126680d992b/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "113,183,247,318",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "178,242,313,381"
+                    }
+                },
+                {
+                    "source": "/Users/markonni/.gradle/caches/transforms-1/files-1.1/design-23.4.0.aar/7f90bda3c992fafbe50596c48f236d51/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "232"
+                    },
+                    "to": {
+                        "startLines": "8",
+                        "startColumns": "4",
+                        "startOffsets": "459",
+                        "endLines": "11",
+                        "endColumns": "12",
+                        "endOffsets": "636"
+                    }
+                },
+                {
+                    "source": "/Users/markonni/.gradle/caches/transforms-1/files-1.1/image-4.6.3.aar/429561861f156012774b6349dcf96939/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,113",
+                        "endColumns": "57,72",
+                        "endOffsets": "108,181"
+                    },
+                    "to": {
+                        "startLines": "2,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,386",
+                        "endColumns": "57,72",
+                        "endOffsets": "108,454"
+                    }
+                }
+            ]
+        }
+    ]
+}

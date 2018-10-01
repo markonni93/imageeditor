@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: it.sephiroth:rxbroadcast:0.0.2@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/rxbroadcast-0.0.2.aar/2999dd5d9d1e68ab563054fa99428d0d/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/rxbroadcast-0.0.2.aar/2999dd5d9d1e68ab563054fa99428d0d/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/it.sephiroth/rxbroadcast/0.0.2/b79c2be554deeb6b6e81f208f82c9367aca9c8ae/rxbroadcast-0.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

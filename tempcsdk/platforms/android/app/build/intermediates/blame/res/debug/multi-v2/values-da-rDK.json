@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/markonni/Desktop/imageEditor/tempcsdk/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-da-rDK/values-da-rDK.xml",
+            "map": [
+                {
+                    "source": "/Users/markonni/.gradle/caches/transforms-1/files-1.1/auth-0.9.1186.aar/939d6796961f2d8a66866545fa2a8a69/res/values-da-rDK/values-da-rDK.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,131,193,253,359,503,572,637,768,867,982,1059,1111,1181,1252",
+                        "endColumns": "75,61,59,105,143,68,64,130,98,114,76,51,69,70,140",
+                        "endOffsets": "126,188,248,354,498,567,632,763,862,977,1054,1106,1176,1247,1388"
+                    }
+                }
+            ]
+        }
+    ]
+}

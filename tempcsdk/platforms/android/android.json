@@ -1,0 +1,123 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "res/xml/config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"Camera\"><param name=\"android-package\" value=\"org.apache.cordova.camera.CameraLauncher\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"Whitelist\"><param name=\"android-package\" value=\"org.apache.cordova.whitelist.WhitelistPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"CSDKImageEditor\"><param name=\"android-package\" value=\"com.adobe.phonegap.csdk.ImageEditor\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "AndroidManifest.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
+              "count": 1
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.VIBRATE\" />",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "res/values/strings.xml": {
+        "parents": {
+          "/resources": [
+            {
+              "xml": "<string name=\"csdk_client_id_android\">c72a214ec12c4eb3a782fb8f731d9203</string>",
+              "count": 1
+            },
+            {
+              "xml": "<string name=\"csdk_client_secret_android\">940d949f-0b75-432b-83d4-62679f6253b6</string>",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "installed_plugins": {
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "com.phonegap.helloworld"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.phonegap.helloworld"
+    },
+    "phonegap-plugin-csdk-client-auth": {
+      "CSDK_CLIENT_ID_IOS": "iOS Client ID",
+      "CSDK_CLIENT_ID_ANDROID": "c72a214ec12c4eb3a782fb8f731d9203",
+      "CSDK_CLIENT_SECRET_IOS": "iOS Secret",
+      "CSDK_CLIENT_SECRET_ANDROID": "940d949f-0b75-432b-83d4-62679f6253b6",
+      "PACKAGE_NAME": "com.phonegap.helloworld"
+    },
+    "phonegap-plugin-csdk-image-editor": {
+      "PACKAGE_NAME": "com.phonegap.helloworld"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "id": "cordova-plugin-camera.Camera",
+      "file": "plugins/cordova-plugin-camera/www/CameraConstants.js",
+      "pluginId": "cordova-plugin-camera",
+      "clobbers": [
+        "Camera"
+      ]
+    },
+    {
+      "id": "cordova-plugin-camera.CameraPopoverOptions",
+      "file": "plugins/cordova-plugin-camera/www/CameraPopoverOptions.js",
+      "pluginId": "cordova-plugin-camera",
+      "clobbers": [
+        "CameraPopoverOptions"
+      ]
+    },
+    {
+      "id": "cordova-plugin-camera.camera",
+      "file": "plugins/cordova-plugin-camera/www/Camera.js",
+      "pluginId": "cordova-plugin-camera",
+      "clobbers": [
+        "navigator.camera"
+      ]
+    },
+    {
+      "id": "cordova-plugin-camera.CameraPopoverHandle",
+      "file": "plugins/cordova-plugin-camera/www/CameraPopoverHandle.js",
+      "pluginId": "cordova-plugin-camera",
+      "clobbers": [
+        "CameraPopoverHandle"
+      ]
+    },
+    {
+      "id": "phonegap-plugin-csdk-image-editor.ImageEditor",
+      "file": "plugins/phonegap-plugin-csdk-image-editor/www/ImageEditor.js",
+      "pluginId": "phonegap-plugin-csdk-image-editor",
+      "clobbers": [
+        "CSDKImageEditor"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "cordova-plugin-camera": "2.2.0",
+    "cordova-plugin-whitelist": "1.2.2",
+    "phonegap-plugin-csdk-client-auth": "1.0.6",
+    "phonegap-plugin-csdk-image-editor": "1.0.0"
+  }
+}

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">helloworld</string>
+    <string name="launcher_name">@string/app_name</string>
+    <string name="activity_name">@string/launcher_name</string>
+    <string name="csdk_client_id_android">c72a214ec12c4eb3a782fb8f731d9203</string>
+    <string name="csdk_client_secret_android">940d949f-0b75-432b-83d4-62679f6253b6</string>
+</resources>

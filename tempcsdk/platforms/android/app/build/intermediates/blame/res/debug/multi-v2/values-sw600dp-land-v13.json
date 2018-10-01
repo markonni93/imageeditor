@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/markonni/Desktop/imageEditor/tempcsdk/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-land-v13/values-sw600dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/markonni/.gradle/caches/transforms-1/files-1.1/image-4.6.3.aar/429561861f156012774b6349dcf96939/res/values-sw600dp-land-v13/values-sw600dp-land-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,128,237,308",
+                        "endColumns": "72,108,70,63",
+                        "endOffsets": "123,232,303,367"
+                    },
+                    "to": {
+                        "startLines": "2,3,5,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,128,298,369",
+                        "endColumns": "72,108,70,63",
+                        "endOffsets": "123,232,364,428"
+                    }
+                },
+                {
+                    "source": "/Users/markonni/.gradle/caches/transforms-1/files-1.1/auth-0.9.1186.aar/939d6796961f2d8a66866545fa2a8a69/res/values-sw600dp-land-v13/values-sw600dp-land-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "60",
+                        "endOffsets": "111"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "237",
+                        "endColumns": "60",
+                        "endOffsets": "293"
+                    }
+                }
+            ]
+        }
+    ]
+}

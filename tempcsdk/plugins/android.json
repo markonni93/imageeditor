@@ -1,0 +1,28 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "com.phonegap.helloworld"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.phonegap.helloworld"
+    },
+    "phonegap-plugin-csdk-client-auth": {
+      "CSDK_CLIENT_ID_IOS": "iOS Client ID",
+      "CSDK_CLIENT_ID_ANDROID": "c72a214ec12c4eb3a782fb8f731d9203",
+      "CSDK_CLIENT_SECRET_IOS": "iOS Secret",
+      "CSDK_CLIENT_SECRET_ANDROID": "940d949f-0b75-432b-83d4-62679f6253b6",
+      "PACKAGE_NAME": "com.phonegap.helloworld"
+    },
+    "phonegap-plugin-csdk-image-editor": {
+      "PACKAGE_NAME": "com.phonegap.helloworld"
+    }
+  },
+  "dependent_plugins": {}
+}

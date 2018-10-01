@@ -1,0 +1,81 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/markonni/Desktop/imageEditor/tempcsdk/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/markonni/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/6b87b7392e555ac541a42126680d992b/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,193,263,337,413,472,543",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "119,188,258,332,408,467,538,606"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "110,179,248,318,392,468,527,598",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "174,243,313,387,463,522,593,661"
+                    }
+                },
+                {
+                    "source": "/Users/markonni/.gradle/caches/transforms-1/files-1.1/auth-0.9.1186.aar/939d6796961f2d8a66866545fa2a8a69/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,126,187",
+                        "endColumns": "70,60,54",
+                        "endOffsets": "121,182,237"
+                    },
+                    "to": {
+                        "startLines": "11,28,29",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "666,1957,2018",
+                        "endColumns": "70,60,54",
+                        "endOffsets": "732,2013,2068"
+                    }
+                },
+                {
+                    "source": "/Users/markonni/.gradle/caches/transforms-1/files-1.1/image-4.6.3.aar/429561861f156012774b6349dcf96939/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,110,183,257,366,427,518,588,662,771,842,906,988",
+                        "endLines": "2,3,4,5,6,7,8,9,10,11,12,13,16",
+                        "endColumns": "54,72,73,108,60,90,69,73,108,70,63,81,12",
+                        "endOffsets": "105,178,252,361,422,513,583,657,766,837,901,983,1114"
+                    },
+                    "to": {
+                        "startLines": "2,12,13,14,15,16,17,18,27,30,31,33,34",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,737,810,884,993,1054,1145,1215,1848,2073,2144,2271,2353",
+                        "endLines": "2,12,13,14,15,16,17,18,27,30,31,33,36",
+                        "endColumns": "54,72,73,108,60,90,69,73,108,70,63,81,12",
+                        "endOffsets": "105,805,879,988,1049,1140,1210,1284,1952,2139,2203,2348,2479"
+                    }
+                },
+                {
+                    "source": "/Users/markonni/.gradle/caches/transforms-1/files-1.1/design-23.4.0.aar/7f90bda3c992fafbe50596c48f236d51/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,115,185,256,328,386,444,550,614,677",
+                        "endLines": "2,3,4,5,6,7,8,9,10,14",
+                        "endColumns": "59,69,70,71,57,57,105,63,62,12",
+                        "endOffsets": "110,180,251,323,381,439,545,609,672,854"
+                    },
+                    "to": {
+                        "startLines": "19,20,21,22,23,24,25,26,32,37",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1289,1349,1419,1490,1562,1620,1678,1784,2208,2484",
+                        "endLines": "19,20,21,22,23,24,25,26,32,40",
+                        "endColumns": "59,69,70,71,57,57,105,63,62,12",
+                        "endOffsets": "1344,1414,1485,1557,1615,1673,1779,1843,2266,2661"
+                    }
+                }
+            ]
+        }
+    ]
+}
